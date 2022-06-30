@@ -13,11 +13,22 @@
       <label for="new-task-description">Task description:</label>
       <input  type="text" id="new-task-description" name="new-task-description" placeholder="description">
       <input type="submit" value="Create New Task">
+            <select id="color-selector">
+              <option class="color-red" value="red">Red</option>
+              <option class="color-yellow" value="yellow">Yellow</option>
+              <option class="color-green" value="green">Green</option>
+            </select>
     </form>
 
     <div id="list">
-      <h2>My Todos:</h2>
-      <ul id="tasks">
+      <h2>My Super Urgent Tasks:</h2>
+      <ul id="red">
+      </ul>
+      <h2>My Medium Urgency Tasks:</h2>
+      <ul id="yellow">
+      </ul>
+      <h2>My Normal Tasks:</h2>
+      <ul id="green">
       </ul>
     </div>
 
